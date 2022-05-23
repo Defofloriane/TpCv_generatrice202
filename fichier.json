@@ -1,0 +1,88 @@
+{
+    "all": {
+        "nom": "KEMGNE DEFO FLORIANE INGRID",
+        "image": "image en base64",
+        "experience": [
+            {
+                "titre": "BOURSE PANAFRICAINE",
+                "periode": "2020 - 2022",
+                "detail": "Etudiante a la faculte des Sciences ,j ai obtenu dans le cadre de la programmation web niveau 1 ,une bourse Panafricaine.",
+                "nom":"KEMGNE DEFO FLORIANE INGRID"
+            },
+            {
+                "titre": "",
+                "periode": "",
+                "detail": ""
+            }
+          
+        ],
+        "formation": [
+            {
+                "titre": "LICENCE1",
+                "ecole": "ICT4D",
+                "periode": "2020-2021",
+                "discours": " J'ai obtenu mon diplome professionnelle a l ecole superieur de Yaounde I"
+            },
+            {
+                "titre": "BACCALAUREAT SCIENTIFIQUE",
+                "ecole": "LYBIBAF",
+                "periode": "2019-2020",
+                "discours": " J'ai obtenu mon Baccalaureat C  au Lycee bilingue de Bafoussam ."
+            },
+            {
+                "titre": "PROBATOIRE SCIENTIFIQUE",
+                "ecole": "LYBIBAF",
+                "periode": "2018-2019",
+                "discours": " J'ai obtenu mon Probatoire C  au Lycee bilingue de Bafoussam ."
+            },
+            {
+                "titre": "BEPC",
+                "ecole": "LYBIBAF",
+                "periode": "2016-2017",
+                "discours": "   J'ai obtenu mon BEPC C  au Lycee bilingue de Bafoussam ."
+            }
+        ],
+        "competances": [
+            {
+                "nom": "PHOTOSOP",
+                "evolution": "Debutante en Photosop.",
+                "cadre":"GRAPHISME"
+            },
+            {
+                "nom": "HTML/CSS/JS",
+                "evolution": "Debutante en Developpement web avec html5",
+                "cadre":"PROGRAMMATION"
+            },
+            {
+                "nom": "BEGIN EN FLUTTER",
+                "evolution": "Mes bebut FontEnd avec fluttre",
+                "cadre":"PROGRAMMATION"
+            },
+            {
+                "nom": "PHYTHON/JAVA",
+                "evolution": "Mini base en java et phython,concept de l oriente Objet.",
+                "cadre":"PROGRAMMATION"
+            }
+        ],
+        "biographie": [
+            {
+                "poste": "",
+                "profil": "Diplomé de Baccalaureat scientifique C,Je suis une jeune Etudiante apte a la communication ,sens de l apdatation et du travail en equipe,respect,optimiste et enthousisame.Je suis aujourd'hui en formation proffesionnelle dans l'école privéé superieure de Yaoundé1 ICT4DL2 pour developper mes compétences dans mon domaine du Genie Logiciel . "
+            }
+        ],
+        "icons": [
+            {
+                "nom": "florianekemgne@gmail.com",
+                "url": "logo base64 de gmail"
+            }
+        ],
+        "numero": "+237 656 717 047",
+        "home": "Yaoundé Mimboman",
+        "langue1": "Francais",
+        "langue2": "Anglais",
+        "loisir1": "Basket-Ball",
+        "loisir2": "Chant",
+        "loisir3": "Danse",
+        "loisir4": "Dessin"
+    }
+}
