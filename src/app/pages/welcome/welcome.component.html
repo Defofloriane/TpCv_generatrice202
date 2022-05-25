@@ -1,1 +1,221 @@
-<p>bonjour</p>
+<p>hey</p>
+<div class="app-details"></div>
+
+
+<!-- <main class="main-content">
+
+    <section class="left-section"> -->
+      
+       <!-- <app-details></app-details> -->
+   
+      <!-- <input type="file" (change)="fileToText($event.target)">
+      <div class="left-content">
+        <div class="profile">
+          <div class="image">
+            <img src="{{data?.all?.image}}" alt="">
+            <div class="photo">
+              <button class="btn-upload">profil</button>
+              <input type="file" id="bannerImg" />
+              <img src="" id="tableBanner" width="100px" height="100px"/>
+              <div id="res"></div>
+                          
+              
+            </div>
+          </div> 
+          <h2 class="name">{{data?.all?.nom}}</h2>
+        </div>
+        <div class="contact-info">
+          <h2 class="dts">Details personnels</h2>
+          <ul>
+            <div class="bt">
+              <img src="" alt="name">
+              <li>
+                <i class="fa fa-fax"></i>
+                <p class="para"> {{data?.all?.nom }} </p>
+            </div>
+  
+            <div class="bt" *ngFor="let icon of data?.all?.icons">
+              <img src="" alt="email" srcset="">
+              <li>
+                <i class="fa fa-fax"></i>
+                <p class="para mail"> {{icon?.nom}}</p>
+              </li>
+            </div>
+  
+            <div class="bt">
+              <img src="" alt="phone">
+              <li>
+                <i class="fa fa-phone"></i>
+                <p class="para"> {{data?.all?.numero}}</p>
+              </li>
+            </div>
+            <div class="bt">
+              <img src="" alt="home" srcset="">
+              <li>
+                <i class="fa fa-fax"></i>
+                <p class="para"> {{data?.all?.home}}</p>
+              </li>
+            </div>
+  
+          </ul>
+        </div>
+        <img src="assets/images/grey-line.png" width="100%" alt="line">
+        <div class="icons">
+          <img src="assets/images/icon2-removebg-preview.png" width="40px" alt="github" srcset="">
+          <img src="assets/images/stack.png" width="40px" alt="staoverflow" srcset="">
+          <img src="" alt="switter" srcset="">
+        </div>
+         <img src="assets/images/grey-line.png" width="100%" alt="line"> 
+        <div class="para" *ngFor="let texte of data?.all?.biographie">
+          <p>{{texte?.profil}}</p>
+  
+        </div>
+       <img src="assets/images/grey-line.png" width="100%" alt="line"> 
+        <div class="timeline">
+          <div class="left-tl-content lang">
+            <h5 class="tl-title">Langue</h5>
+          </div>
+          <div class="right-tl-content langs">
+            <div class="">
+              <h5 class="para">{{data?.all?.langue1}}</h5>
+            </div>
+            <div class="">
+              <h5 class="para">{{data?.all?.langue2}}</h5>
+            </div>
+          </div>
+  
+          <div class="left-tl-content lang">
+  
+         <h5 class="tl-title">Loisir</h5>
+          </div>
+          <div class="right-tl-content langs">
+            <div class="">
+               <h5 class="para">{{data?.all?.loisir1}}</h5>
+            </div>
+            <div class="">
+               <h5 class="para">{{data?.all?.loisir2}}</h5>
+            </div>
+            <div class="">
+              <h5 class="para">{{data?.all?.loisir3}}</h5>
+            </div>
+            <div class="">
+              <h5 class="para">{{data?.all?.loisir4}}</h5>
+            </div>
+          </div>
+        </div>
+  
+      </div> -->
+    <!-- </section>
+    <section class="right-section">
+      <div class="right-main-content">
+  
+        <section class="cursus sect cursus">
+         
+          <h2 class="right-title">Cursus scolaire</h2>
+         
+            
+            <div class=""  *ngFor="let cursus of data?.all?.formation" >
+              <div class="">
+                <h5 class=""> {{cursus?.ecole}}</h5>
+                <p class="para">{{cursus?.periode}}</p>
+              </div>
+              <div class="">
+                <div class="">
+                  <h5 className="">{{cursus?.titre}}</h5>
+                  <p class="para">
+                    {{cursus?.discours}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+        </section>
+  
+  
+        <section class="experince sect" >
+          <h2 class="right-title">Experience </h2>
+          <tr class="timeline"  *ngFor="let experience of data?.all?.experience">
+            <div class="left-tl-content">
+              <h5 class="tl-title"> {{experience?.titre}}</h5>
+              <p class="para"> {{experience?.titre}}</p>
+            </div>
+            <div class="right-tl-content">
+              <div class="tl-content">
+                <h5 class="tl-title-2">{{experience?.nom}}</h5>
+                <p class="para">
+                  {{experience?.detail}}
+                </p>
+              </div>
+            </div>
+          </tr>
+  
+        </section>
+  
+        <section class="competences sect">
+          <h2 class="right-title">Competence</h2>
+          <div class="timeline"  *ngFor="let competenece of data?.all?.competances">
+            <div class="left-tl-content">
+              <h5 class="tl-title">{{competenece?.cadre}} </h5>
+  
+            </div>
+            <div class="right-tl-content">
+              <div class="tl-content">
+                <h5 class="tl-title-2">{{competenece?.nom}}</h5>
+                <p class="para">
+                  {{competenece?.evolution}}
+                </p>
+              </div>
+            </div>
+  
+          </div>
+        
+        </section>
+      </div>
+    </section>
+  </main> -->
+  <!-- <script>
+    console.log("je suis la");
+    // Get all variables
+  var bannerImage = document.getElementById('bannerImg');
+  var result = document.getElementById('res');
+  var img = document.getElementById('tableBanner');
+  
+  // 
+  bannerImage.addEventListener('change', function () {
+      var file = this.files[0];
+      if (file.type.indexOf('image') < 0) {
+          res.innerHTML = 'invalid type';
+          return;
+      }
+      var fReader = new FileReader();
+      fReader.onload = function () {
+          img.src = fReader.result;
+          localStorage.setItem("imgData", getBase64Image(img));
+      };
+  
+      fReader.readAsDataURL(file);
+  });
+  
+  function getBase64Image(img) {
+      var canvas = document.createElement("canvas");
+      canvas.width = img.width;
+      canvas.height = img.height;
+  
+      var ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+  
+      var dataURL = canvas.toDataURL("image/png");
+  
+      return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+  }
+  
+  function fetchimage() {
+      var dataImage = localStorage.getItem('imgData');
+      img.src = "data:" + dataImage;
+  }
+  
+  // Call fetch to get image from localStorage.
+  fetchimage();
+  
+  </script> -->
+  

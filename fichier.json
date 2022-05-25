@@ -46,7 +46,8 @@
             {
                 "nom": "PHOTOSOP",
                 "evolution": "Debutante en Photosop.",
-                "cadre":"GRAPHISME"
+                "cadre":"GRAPHISME",
+                "texte":"Loin loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles. Séparés, ils vivent dans le bosquet des signets juste à côté de la sémantique et al nous decouvrons nos Competences"
             },
             {
                 "nom": "HTML/CSS/JS",
@@ -83,6 +84,21 @@
         "loisir1": "Basket-Ball",
         "loisir2": "Chant",
         "loisir3": "Danse",
-        "loisir4": "Dessin"
+        "loisir4": "Dessin",
+        "nomCompetence0": "PHOTOSOP",
+        "evolutionCompetence0": "60%.",
+        "nomCompetence1": "debut en flutter",
+        "evolutionCompetence1": "80%.",
+        "nomCompetence2":"java",
+        "evolutionCompetence2": "80%.",
+        "texteCompetence1":"Loin loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles. Séparés, ils vivent dans le bosquet des signets juste à côté de la sémantique et al nous decouvrons nos Competences",
+        "nomCompetence3": "Francais",
+        "evolutionCompetence3": "90%.",
+        "nomCompetence4": "Anglais",
+        "evolutionCompetence4": "65%.",
+        "textecursus1":"Loin loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles. Séparés, ils vivent dans le bosquet des signets juste à côté de la sémantique et al nous decouvrons mon cursus Scolaire",
+        "cursus1":"",
+        "resumer": "Diplomé de Baccalaureat scientifique C,Je suis une jeune Etudiante apte a la communication ,sens de l apdatation et du travail en equipe,respect,optimiste et enthousisame.Je suis aujourd'hui en formation proffesionnelle dans l'école privéé superieure de Yaoundé1 ICT4DL2 pour developper mes compétences dans mon domaine du Genie Logiciel . "
+
     }
 }

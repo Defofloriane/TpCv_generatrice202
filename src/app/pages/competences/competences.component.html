@@ -1,1 +1,134 @@
-<p>competences works!</p>
+<div class="container-fluid competance mt-4">
+    <div name="section-skills" class="">
+        <section class="shadow-blue white-bg padding">
+            <input type="file" (change)="fileToText($event.target)">
+            <h3 class="section-title texte"style="font-size: 40px;">MES COMPETENCES</h3>
+            <div class="spacer"></div>
+            <p class="mb-0">{{data?.all?.texteCompetence1}}</p>
+            <div class="espace">
+                <div class="skill" id="skill">
+                    <div class="computer">
+            
+                        <h1>Compétences informatiques</h1>
+                        <div>
+                            <!-- <input type="text" #nom[id]="name" value="{{data.all.nomCompetence0 }}" /> -->
+                            <!-- <button (click) ="input(nom.value)">Change</button> --> 
+                            <!-- <button onclick="input(nom.value)"> ok</button> -->
+                        </div>
+                       <div class="contain">
+                        <div class="progress" id="progress_0">
+                            <h6>{{data?.all?.nomCompetence0 }} </h6>
+                            <div class="progress-bar">
+                                <div class="progressing"></div>
+                                <span class="circle"></span>
+                            </div>
+                            <p class="percent">{{data?.all?.evolutionCompetence0 }}</p>
+                        </div>
+            
+                        <div class="progress" id="progress_1">
+                            <h6>{{data?.all?.nomCompetence1 }}</h6>
+                            <div class="progress-bar">
+                                <div class="progressing"></div>
+                                <span class="circle"></span>
+                            </div>
+                            <p class="percent">{{data?.all?.evolutionCompetence1 }}</p>
+                        </div>
+            
+                        <div class="progress" id="progress_2">
+                            <h6>{{data?.all?.nomCompetence2 }}</h6>
+                            <div class="progress-bar">
+                                <div class="progressing"></div>
+                                <span class="circle"></span>
+                            </div>
+                            <p class="percent">{{data?.all?.evolutionCompetence2 }}</p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="computer">
+            
+                        <h1>Compétences générales</h1>
+                       <div class="contain">
+                        <div class="progress" id="progress_4">
+                            <h6>{{data?.all?.nomCompetence3 }} </h6>
+                            <div class="progress-bar">
+                                <div class="progressing"></div>
+                                <span class="circle"></span>
+                            </div>
+                            <p class="percent">{{data?.all?.evolutionCompetence3}}</p>
+                        </div>
+                        <div class="progress" id="progress_3">
+                            <h6>{{data?.all?.nomCompetence4}}</h6>
+                            <div class="progress-bar">
+                                <div class="progressing"></div>
+                                <span class="circle"></span>
+                            </div>
+                            <p class="percent">{{data?.all?.evolutionCompetence4}}</p>
+                        </div>
+            
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>  
+    </div>
+</div>  
+                    <!-- <div class="col-md-6 mt-50">
+                        <div><div class="skill-item">
+                            <div class="skill-info clearfix">
+                                <h4 class="float-left mb-3 mt-0 title">Wordpress</h4>
+                                
+                            </div><div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" style="width: 85%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-50">
+                    <div>
+                        <div class="skill-item">
+                            <div class="skill-info clearfix">
+                                <h4 class="float-left mb-3 mt-0 title">HTML &amp; CSS</h4>
+                                
+                            </div>
+                            <div class="progress " >
+                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" style="width: 90%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-50">
+                                    <div>
+                                        <div class="skill-item">
+                                            <div class="skill-info clearfix">
+                                                <h4 class="float-left mb-3 mt-0 title">jQuery</h4>
+                                                
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="width: 60%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-50">
+                                    <div>
+                                        <div class="skill-item">
+                                            <div class="skill-info clearfix">
+                                                <h4 class="float-left mb-3 mt-0 title">Sketch</h4>
+                                                
+                                            </div><div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="width: 70%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+ 
+
+
+

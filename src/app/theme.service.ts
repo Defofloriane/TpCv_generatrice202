@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 enum ThemeType {
   dark = 'dark',
   default = 'default',
+  
 }
 
 @Injectable({

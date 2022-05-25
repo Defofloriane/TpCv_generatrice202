@@ -1,3 +1,4 @@
+
 <nz-layout class="app-layout">
   <nz-sider class="menu-sidebar"
             nzCollapsible
@@ -6,11 +7,12 @@
             [(nzCollapsed)]="isCollapsed"
             [nzTrigger]="null">
     <div class="sidebar-logo">
-      <a href="https://ng.ant.design/" target="_blank">
-        <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
-        <h1>Ant Design Of Angular</h1>
+      <a href="https://www.youtube.com/watch?v=y8KKft8KJ1c" target="_blank">
+        <img src="assets/me.jpg" alt="logo">
+        <h1>My CV</h1>
       </a>
     </div>
+    <!-- <app-welcome></app-welcome> -->
     <ul nz-menu nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
         <ul>
@@ -61,8 +63,9 @@
       </div>
     </nz-header>
     <nz-content>
-      <div class="inner-content">
+      <div class="">
         <router-outlet></router-outlet>
+        <!-- <app-welcome></app-welcome> -->
       </div>
     </nz-content>
   </nz-layout>

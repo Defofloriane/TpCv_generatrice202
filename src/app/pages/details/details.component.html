@@ -1,1 +1,86 @@
-<p>details works!</p>
+<div class="container-fluid competance mt-4">
+  <div name="section-skills" class="">
+      <section class="shadow-blue white-bg padding">
+          <input type="file" (change)="fileToText($event.target)">
+          <h3 class="section-title texte"style="font-size: 40px;">Details personnels</h3>
+          <div class="spacer"></div>
+          <p class="mb-0"></p>
+          <div class="espace">
+              <div class="skill" id="skill">
+                  <div class="computer">
+          
+                    
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+
+</div>
+<!-- 
+<section class="left-section">
+    <input type="file" (change)="fileToText($event.target)">
+    <div class="left-content">
+    
+        <div class="image">
+          
+            <div class="photo">
+                <button class="btn-upload">Choisir le fichier</button>
+                <input type="file" id="bannerImg" />
+                <img src="" id="tableBanner" width="100px" height="100px"/>
+                <div id="res"></div>
+                
+              </div>
+       
+        <h2 class="name">{{data?.all?.nom}}</h2>
+      </div>
+      <div class="contact-info">
+        <h2 class="dts">Details personnels</h2>
+        <ul>
+          <div class="bt">
+            <img src="" alt="name">
+            <li>
+              <i class="fa fa-fax"></i>
+              <p class="para"> {{data?.all?.nom }} </p>
+          </div>
+
+          <div class="bt" *ngFor="let icon of data?.all?.icons">
+            <img src="" alt="email" srcset="">
+            <li>
+              <i class="fa fa-fax"></i>
+              <p class="para mail"> {{icon?.nom}}</p>
+            </li>
+          </div>
+
+          <div class="bt">
+            <img src="" alt="phone">
+            <li>
+              <i class="fa fa-phone"></i>
+              <p class="para"> {{data?.all?.numero}}</p>
+            </li>
+          </div>
+          <div class="bt">
+            <img src="" alt="home" srcset="">
+            <li>
+              <i class="fa fa-fax"></i>
+              <p class="para"> {{data?.all?.home}}</p>
+            </li>
+          </div>
+
+        </ul>
+      </div>
+      <img src="assets/images/grey-line.png" width="100%" alt="line">
+      <div class="icons">
+        <img src="assets/images/icon2-removebg-preview.png" width="40px" alt="github" srcset="">
+        <img src="assets/images/stack.png" width="40px" alt="staoverflow" srcset="">
+         <img src="" alt="">
+      </div>
+      <img src="assets/images/grey-line.png" width="100%" alt="line">
+      <div class="para" *ngFor="let texte of data?.all?.biographie">
+        <p>{{texte?.profil}}</p>
+          
+      </div>
+      <img src="assets/images/grey-line.png" width="100%" alt="line">
+     
+    </div>
+  </section> -->

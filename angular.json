@@ -54,7 +54,9 @@
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles/themes"]
             },
-            "scripts": []
+            "scripts": [
+              "src/assets/details.js"
+            ]
           },
           "configurations": {
             "production": {

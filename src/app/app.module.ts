@@ -14,6 +14,7 @@ import { zh_CN } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { AppInitializerProvider } from './app-initializer.service';
+// import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler';
 
 registerLocaleData(zh);
 
@@ -28,7 +29,11 @@ registerLocaleData(zh);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+
   ],
+  // schemas: [
+  //   CUSTOM_ELEMENTS_SCHEMA,
+  // ],
   providers: [AppInitializerProvider, { provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent],
 })
