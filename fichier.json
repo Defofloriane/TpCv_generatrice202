@@ -44,8 +44,8 @@
         ],
         "competances": [
             {
-                "nom": "PHOTOSOP",
-                "evolution": "Debutante en Photosop.",
+                "nom": "PHOTOSHOP",
+                "evolution": "Debutante en Photoshop.",
                 "cadre":"GRAPHISME",
                 "texte":"Loin loin, derrière le mot montagnes, loin des pays Vokalia et Consonantia, vivent les textes aveugles. Séparés, ils vivent dans le bosquet des signets juste à côté de la sémantique et al nous decouvrons nos Competences"
             },
@@ -56,7 +56,7 @@
             },
             {
                 "nom": "BEGIN EN FLUTTER",
-                "evolution": "Mes bebut FontEnd avec fluttre",
+                "evolution": "Mes bebut FontEnd avec flutter",
                 "cadre":"PROGRAMMATION"
             },
             {
