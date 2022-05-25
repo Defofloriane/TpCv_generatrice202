@@ -8,8 +8,40 @@
           <div class="espace">
               <div class="skill" id="skill">
                   <div class="computer">
-          
-                    
+                    <div class="contact-info">
+                    <ul>
+                      <div class="bt">
+                        <img src="" alt="name">
+                        <li>
+                          <i class="fa fa-fax"></i>
+                          <p class="para"> {{data?.all?.nom }} </p>
+                      </div>
+            
+                      <div class="bt" *ngFor="let icon of data?.all?.icons">
+                        <img src="" alt="email" srcset="">
+                        <li>
+                          <i class="fa fa-fax"></i>
+                          <p class="para mail"> {{icon?.nom}}</p>
+                        </li>
+                      </div>
+            
+                      <div class="bt">
+                        <img src="" alt="phone">
+                        <li>
+                          <i class="fa fa-phone"></i>
+                          <p class="para"> {{data?.all?.numero}}</p>
+                        </li>
+                      </div>
+                      <div class="bt">
+                        <img src="" alt="home" srcset="">
+                        <li>
+                          <i class="fa fa-fax"></i>
+                          <p class="para"> {{data?.all?.home}}</p>
+                        </li>
+                      </div>
+            
+                    </ul>
+                    </div>
                   </div>
               </div>
           </div>
