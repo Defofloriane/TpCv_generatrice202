@@ -14,12 +14,13 @@ import { zh_CN } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { AppInitializerProvider } from './app-initializer.service';
+import { AuthFormComponent } from './auth-form/auth-form.component';
 // import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler';
 
 registerLocaleData(zh);
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AuthFormComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
